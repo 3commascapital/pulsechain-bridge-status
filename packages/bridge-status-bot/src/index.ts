@@ -82,3 +82,6 @@ bot.on('message', async (ctx) => {
 
 //Start the Bot
 bot.start();
+setInterval(() => {
+  // console.log('screaming', screaming);
+}, 1000);
